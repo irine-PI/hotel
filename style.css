@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+body{
+    max-width: 1440px;
+    max-height: 2968px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header{
+    background-color: white;
+    max-width: 1440px;
+    max-height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 467px;
+
+}
+
+.logo{
+  
+    max-width: 190px;
+    max-height: 159px;
+    padding: 18px 62px;
+    margin: 0 auto;
+}
+.logo img{
+    object-fit: cover;
+}
+
+
+.nav{
+    max-width: 653px;
+    max-height: 28px;
+    padding-top: 54px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    object-fit: cover;
+
+} 
+
+
+.nav a{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #957554;
+}
+
+.section1{
+   background-image: url(./11.png);
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center; 
+   gap: 53.83px;
+}
+
+h1{
+    font-family: Ubuntu;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 91.92px;
+    color:  rgba(255, 255, 255, 1);
+}
+p{
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    color: rgba(255, 255, 255, 1);
+}
+
+button{
+    max-width: 371px;
+    max-height: 76px;
+    background-color: rgba(223, 170, 91, 1);
+    border-radius: 10px;
+    border-color:  rgba(0, 0, 0, 1);
+    padding: 25px 133.2px;
+    margin-bottom: 24.76px;
+
+}
+button a{
+    
+    color: rgba(255, 255, 255, 1);
+    flex-wrap: nowrap;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: center;
+    text-wrap: nowrap;
+}
+  .section1 article{
+    margin-top: 242px;
+  } 
+  .section1 button{
+    margin-bottom: 245.76px;
+  }
+  article{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+   h2{
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51.71px;
+    color: rgba(149, 117, 84, 1);
+    align-items: center;
+   
+  }
+  .section2{
+   border-radius: 10px;
+    background: url(./12.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    position: relative;
+
+  }
+  .section2{
+    width: 630px;
+    height: 500px;
+    
+  }
+  .section2 h3{
+    position: absolute;
+    top: 302px;
+    left: 126px;
+  }
+
+  
+ 
+h3{
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45.96px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+   
+}
+.section2 button{
+    max-width: 244px;
+    max-height: 76px;  
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 367px;
+    left: 195px;
+}
+.section2 button a{
+    text-wrap: nowrap;
+   
+}
+.section3{
+    
+    background: url(./13.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    position: relative;
+}
+.section3 h3{
+    position: absolute;
+    top: 302px;
+    left: 171px;
+}
+.section3{
+    width: 630px;
+    height: 500px;
+}
+.section3 button{
+    max-width: 244px;
+    max-height: 76px;  
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 367px;
+    left:197px;
+    
+}
+.section4{
+    background: url(./14.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    position: relative;
+}
+.section4 h3{
+    position: absolute;
+    top: 287px;
+    left: 121px;
+}
+.section4{
+    width: 630px;
+    height: 500px;
+}
+.section4 button{
+    width: 244px;
+    height: 76px;  
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 367px;
+    left: 193px;
+}
+.section5{
+    
+    background: url(./15.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.section5 h3{
+    position: absolute;
+    top: 287px;
+    right: 179px;
+}
+.section5{
+    width: 630px;
+    height: 500px 
+    
+}
+.section5 button{
+    width: 244px;
+    height: 76px;  
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 367px;
+    right: 173px;
+}
+.rooms{
+    margin-top: 47px;
+    max-width: 1320px;
+    max-height:1059px ;
+    gap: 60px;
+    align-items: center;
+    
+} 
+
+
+.part1{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding:0 60px; 
+    gap: 60px;  
+  
+}
+
+
+
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 59px; 
+    padding:0 60px; 
+    gap: 60px; 
+    position: relative; 
+}
+.section2 button{
+    position: absolute;
+    
+}
+.section3 button a{
+    text-wrap: nowrap;
+   
+}
+.section4 button a{
+    text-wrap: nowrap;
+   
+}
+.section5 button a{
+    text-wrap: nowrap;   
+}
+.book{
+    height: 166px;
+    margin-top: 55px;
+    align-items: center;display: flex;
+    flex-direction: column;
+    gap: 38px;    
+}
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 51px 0;
+    max-width: 1440px;
+    max-height: 459px;
+    margin-top: 122px;
+    display: flex;
+    justify-content: space-between;
+
+    
+   
+}
+.logo1{
+    width: 154px;
+    height: 126px;
+    object-fit: cover;    
+}
+.logo1 img{
+    object-fit: cover;
+}
+.navigation{
+    max-width: 194px;
+    max-height: 249px;
+    display: flex;
+    flex-direction: column;
+    gap: 27.58px;
+    
+    
+}
+.navigation a{
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.58px;
+    color: rgba(255, 255, 255, 1);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    margin-right: 123px;
+}
+.contact a{
+
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.58px;
+    color: rgba(255, 255, 255, 1)   
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 49px;
+} 
+.page1 h3{
+    align-items: first baseline;
+   
+}.page1 p{
+    color: rgba(0, 0, 0, 1);
+    
+}
+.page1 h3{
+  color:  rgba(149, 117, 84, 1)
+}
+.page1 button{
+    max-width: 244px;
+    max-height: 76px;
+    display: flex;
+    justify-content: center; 
+}
+.sector{
+    max-width: fit-content;
+    max-height: fit-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+    gap: 60px;
+          
+}
+.page1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; 
+      
+}
+ .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: first baseline;
+   gap: 44px; 
+   width: 500px;
+   margin: 0 auto;   
+}
+.sec2 img{
+    order: 1;
+}
+.sec4 img{
+    order: 1;
+}
+.text2{
+    align-items: end;
+    text-align: right;
+}
+.text4{
+    align-items: end;
+    text-align: right;
+}
+
+.gallery{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    object-fit: cover;
+    gap: 30px;   
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gallery img:first-child {
+    grid-area: 1/1/2/4;
+}
+.gallery img:nth-child(2){
+grid-area: 1/4/2/6;
+}
+.gallery img:nth-child(3){
+grid-area: 2/1/3/3;
+}
+.gallery img:last-child{
+    grid-area: 2/3/3/6;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
